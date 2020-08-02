@@ -1,0 +1,1 @@
+module.exports = require('./lib/connect-better-sqlite3.js')
