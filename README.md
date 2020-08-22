@@ -14,16 +14,10 @@ be available to others, unless you replicate the data yourself.
 ## Usage
 
 ```javascript
+const session = require("express-session");
+const SQLiteStore = require("connect-better-sqlite3")(session);
 
-  const session = require('express-session')
-  const SQLiteStore = require('connect-better-sqlite3')(session)
+const store = new SQLiteStore();
 
-  const store = new SQLiteStore({
-    secret: 'foo bar',
-    secure: true
-  })
-
-  app.use(store)
-
-
+app.use(session({ store }));
 ```

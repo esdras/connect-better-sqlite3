@@ -1,25 +1,26 @@
 {
-  "name": "connect-better-sqlite3",
-  "version": "1.0.0",
-  "description": "connect-better-sqlite3 provides SQLite3 session storage for Express, it talks to SQLite using the package better-sqlite3 inestead of sqlite or sqlite3. It is also faster than some alternatives because it compiles queries during initialization.",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [
-    "express",
-    "session",
-    "sqlite3",
-    "connect"
-  ],
-  "author": "Esdras Mayrink",
-  "license": "MIT",
-  "devDependencies": {
-    "express-session": "^1.17.1",
-    "jest": "^26.2.2",
-    "jsdoc": "^3.6.5"
-  },
-  "dependencies": {
-    "better-sqlite3": "^7.1.0"
-  }
+	"name": "connect-better-sqlite3",
+	"version": "1.0.0",
+	"description": "connect-better-sqlite3 provides SQLite3 session storage for Express, it talks to SQLite using the package better-sqlite3 inestead of sqlite or sqlite3. It is also faster than some alternatives because it compiles queries during initialization.",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"keywords": [
+		"express",
+		"session",
+		"sqlite3",
+		"connect",
+		"sqlite"
+	],
+	"author": "Esdras Mayrink",
+	"license": "MIT",
+	"devDependencies": {
+		"express-session": "^1.17.1",
+		"jest": "^26.2.2",
+		"jsdoc": "^3.6.5"
+	},
+	"dependencies": {
+		"better-sqlite3": "^7.1.0"
+	}
 }
